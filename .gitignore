@@ -1,0 +1,107 @@
+ Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+
+# Distribution / packaging
+/dist/
+/build/
+/*.egg
+/*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+/ENV/
+/env.bak/
+/venv.bak/
+
+# Dependencies
+/pip-wheel-metadata/
+/site/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*~.ipynb
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+.coverage
+/htmlcov/
+
+# Cython
+*.so
+*.c
+
+# Documentation
+/docs/_build/
+/html/
+/latex/
+
+# IDEs and Editors
+.idea/                          # JetBrains IDEs (PyCharm, IntelliJ)
+.vscode/                        # Visual Studio Code
+*.swp                           # Vim swap files
+*.bak                           # Backup files
+*~                              # Emacs backup files
+*.log                           # Log files
+*.sublime-project
+*.sublime-workspace
+
+# OS specific files
+.DS_Store                       # macOS
+Thumbs.db                       # Windows
+Desktop.ini                     # Windows
+
+# Environment variables
+.env                            # Common for dotenv and similar
+.flaskenv                       # Flask specific
+*.env                           # Wildcard for other .env files
+*.env.* # Wildcard for variations like .env.development, .env.production
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Test/dummy files
+/testdata/
+/tests/temp/
+
+# Compiled object files (if using C extensions)
+*.o
+*.a
+*.lib
+
+# Temporary files created by editors or scripts
+temp_*.py
+_temp_*.py
+
+# Jupyter Lab State
+.jupyter_workspace
+
+# DVC - Data Version Control (if used)
+.dvc/
+*.dvc
+
+# Poetry (if used)
+.poetry/
+
+# Pip cache (usually not in project root, but good to include if it somehow appears)
+/pip_cache/
+
+# Coverage files
+.coverage.*
+
+# Miscellaneous
+.history/ # VS Code local history
